@@ -1,0 +1,108 @@
+body{
+color:brown;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#logoinicial{
+    position: absolute;
+    width: 160px;
+    height: 140px;
+    left: 0px;
+}
+#icon1{
+    position: absolute;
+    top: 50px;
+    left: 1150px;
+    width: 30px;
+    height: 30px;
+}
+
+#text1{
+    color: black;
+    display: grid;
+    font-size: 25px;
+    font-family: Calisto MT;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+#text2{
+    color: black;
+    display: grid;
+    font-size: 25px;
+    font-family: Calisto MT;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+#text3{
+    color: black;
+    display: grid;
+    font-size: 25px;
+    font-family: Calisto MT;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+
+#text4{
+    color: black;
+    display: grid;
+    font-size: 25px;
+    font-family: Calisto MT;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+font:hover{
+    color: #ffffff;
+    cursor: pointer;
+    transform: translateY(-40%);
+    animation: movimiento 10s infinite;
+    text-decoration: wavy;
+    text-decoration: unset;
+    text-shadow: 2px 1px 2px black;
+    transition: .5s;
+
+}
+
+#icon2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    left: 1200px;
+
+}
+#icon3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    left: 1240px;
+
+}
+#icon4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    left: 1280px;
+
+}
+
+img:hover{
+    cursor: pointer;
+    filter: drop-shadow(4px 4px 6px rgb(158, 77, 77));
+}
+
