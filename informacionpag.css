@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+}
+
+.subtitulos{
+    font-family: 'Muli';
+    font-size: 26px;
+    font-weight: bold;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-background {
+    width: 80%;
+    
+    background: rgba(255, 255, 255, 0.3); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Aplicar el desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para navegadores WebKit */
+    border-radius: 15px; /* Opcional: bordes redondeados */
+    padding: 20px;
+  }
+  img{
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+  }
+    img:hover{
+        cursor: pointer;
+        filter: drop-shadow(4px 4px 6px rgb(158, 77, 77));
+    
+  }
